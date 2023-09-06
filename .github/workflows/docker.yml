@@ -18,8 +18,8 @@ jobs:
 
     - name: Build and tag Docker image
       run: |
-        docker build -t shristidewangan30@gmail.com/hello-world:latest -f my-docker-project/Dockerfile .
-        docker tag your-shristidewangan30@gmail.com/hello-world:latest shristidewangan30@gmail.com/hello-world:latest
+        docker build -t shristidewangan30/hello-world:latest -f my-docker-project/Dockerfile .
+        docker tag your-shristidewangan30/hello-world:latest shristidewangan30/hello-world:latest
 
     - name: Push Docker image
-      run: docker push shristidewangan30@gmail.com/hello-world:latest
+      run: docker push shristidewangan30/hello-world:latest
